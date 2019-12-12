@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url('acc.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    margin-top: -20px;
+}
+
+.table1 {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 21px;
+    float: right;
+
+
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.href {
+    color: white;
+    text-decoration: none;
+}
+
+.href2 {
+    color: white;
+    text-decoration: none;
+}
+
+.href3 {
+    color: white;
+    text-decoration: none;
+}
+
+. {
+    color: white;
+    text-decoration: none;
+}
+
+.image1 {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+td {
+    padding-right: 20px;
+}
+
+.all_border input {
+    margin-left: 100px;
+}
+
+.btnInscription {
+    color: white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+}
+
+input:hover {
+    color: #008AFF;
+    background-color: white;
+}
+
+
+
+.ASM {
+    border-radius: 70%;
+    width: 100px;
+    margin-left: 92%;
+    margin-top: 100px;
+
+
+}
+
+.email {
+    margin-left: 76%;
+    margin-top: -40px;
+}
+
+.r {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.5px solid rgb(202, 202, 202);
+    padding: -1px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+
+
+}
+
+.r input {
+    background: none;
+    border: none;
+    outline: none;
+    /*  */
+    width: 150px;
+
+
+}
+
+
+
+
+.niveau {
+    margin-top: -40px;
+    margin-left: 750px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.niveau1 {
+    margin-top: -20px;
+    margin-left: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.niveau2 {
+    margin-top: -20px;
+    margin-left: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.compétence {
+    margin-top: -50px;
+    margin-left: 180px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.brd-right {
+    border-right: solid 5px rgb(74, 76, 231);
+
+
+
+}
+
+
+
+
+
+.table-pad td {
+    padding: 20px 20px;
+
+}
+
+
+
+.line {
+    width: 100px;
+    border: solid 1px#707070;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.border {
+    /* margin-left: 400px; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.border input {
+    margin-bottom: 50px;
+}
+
+
+.border2 {
+    margin-left: 800px;
+    margin-top: -500px;
+
+}
+
+
+.check_box {
+    margin-right: 200px
+}
+
+.all_border {
+    display: flex;
+    flex-direction: row;
+    width: 1020px;
+    border-collapse: separate;
+    border-spacing: 30px;
+    /* float: right; */
+    margin-top: -50px;
+}
+
+.CHECK1 {
+    margin-left: 200px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+
+}
+
+.tablesov {
+    width: 100%;
+    margin-left: 1000px;
+    margin-top: 20px;
+
+}
+
+.sauv {
+    color: white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+    margin-right: -130px;
+
+}
+
+.sauvgar {
+    color: white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    border: none;
+
+    margin-right: -200px;
+}
+
+
+
+.table3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btnInscription3 {
+    color: white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+    margin-right: -130px;
+
+}
+
+.insc {
+    text-align: center;
+    font-family: montserrat;
+    font-size: 30px;
+}
+
+.table4 {
+    color: #666666;
+    text-align: right;
+    width: 100%;
+    font-family: montserrat;
+    letter-spacing: 0.08em;
+}
+
+.last {
+    float: right;
+}
+
+.copy {
+    margin-right: -50px;
+}
+
+.supp {
+    color: rgb(41, 122, 230);
+}
+
+.contact {
+    float: left;
+}
