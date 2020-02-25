@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="all">
+        <img src="img/logo.PNG" alt="logo" />
+       <!-- <div class="header">
+            <ul>
+                <li> <a href="#">ACCEUIL</a> </li>
+                <li> <a href="#">RSERVATION</a> </li>
+                <li> <a href="#">A PROPOS</a> </li> 
+
+            </ul>
+        </div> -->
+        <div class="nav">
+            <label for=toggle>&#9776; </label>
+            <input type="checkbox" id="toggle" />
+        <div class="menu">
+            <!-- <img src="imgs/logo3.jpg" alt="logo" />  -->
+         <div class="link">
+                <a href="#acceuil">ACCEUIL</a>
+                <a href="#reserve"> RESERVATION</a>
+                <a href="#propos">A PROPOS</a>
+            </div> 
+
+        </div> 
+    </div>
+    </div>
+   
+    <div id="acceuil" class="display">
+        <img class="mySlides img" src="img/cosmic-timetraveler-zh_ofCt2r9c-unsplash.jpg" style="width:100%">
+        <img class="mySlides img" src="img/jesse-roberts-561igiTyvSk-unsplash.jpg" style="width:100%">
+        <img class="mySlides img" src="img/rowan-heuvel-bjej8BY1JYQ-unsplash.jpg" style="width:100%">
+        <img class="mySlides img" src="img/scott-webb-1ddol8rgUH8-unsplash.jpg" style="width:100%">
+
+        <div class="buttonpos">
+            <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+
+    </div>
+   
+    <div class="D0">
+      
+        <div class="D1">
+
+            <select>
+                <option value="type">type</option>
+                <option value="saab">maison</option>
+                <option value="opel">apprtement</option>
+                <option value="audi">studio</option>
+            </select>
+            <select>
+                <option value="city">city</option>
+                <option value="saab">Paris</option>
+                <option value="opel">marseille</option>
+                <option value="audi">lille</option>
+            </select>
+            <button class="D2">Rechercher</button>
+        </div>
+    </div>
+    <div  class="titre1">
+        <div> Les bons plans de location</div>
+        <h5>Voici quelques conseils et méthodes de recherche de<br> location pour mettre toutes les chances de votre
+            côté.</h5>
+    </div>
+    <div class="gall">
+        <div class="subgall">
+            <img src="img/judy-grayson-2jk97TV-I04-unsplash.JPG" />
+            <img src="img/brian-babb-XbwHrt87mQ0-unsplash.JPG"  />
+            <img src="img/travel-cents-WYLuNY5JG4E-unsplash.JPG"  />
+        </div>
+        <div class="subgall">
+            <img src="img/pixasquare-4ojhpgKpS68-unsplash.JPG"  />
+            <img src="img/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash.JPG" />
+            <img src="img/jamie-street-h6mj_9bCvBk-unsplash.JPG"  />
+        </div>
+    </div>
+    <h5 class="titre2">Comment louer un appartement ?</h5>
+    <div class="location">
+        <div class="loc0">
+            <img class="loc" src="img/jan-jakub-nanista-UHyrjKPsshk-unsplash.JPG" width="100%" height="300vw" />
+            <div> <br>Trouver un appartement en location n’est pas toujours facile.<br> Quel quartier ? Quel loyer ?
+                Comment convaincre le propriétaire<br> de vous donner les clés de son précieux investissement ? <br> Voici
+                quelques conseils et méthodes de recherche de <br>location pour mettre toutes les chances de votre
+                côté.</div>
+        </div>
+        <div id="reserve" class="reserv">
+            <p>réserver cette proprieté</p>
+            <div class="ALL">
+                <input class="nom" id="nom" type="text" placeholder="Nom">
+            </div>
+            <div class="ALL">
+                <input class="nom" id="prenom" type="text" placeholder="Prénom">
+            </div>
+         
+            <div class="ALL">
+            <b>  Date de naissance</b>
+                <input type="date" id="date1">
+            </div>
+            <div class="ALL" >
+              <b>  Date de reservation</b>
+                <input type="date" id="date2">
+            </div>
+            <div class="ALL">
+                <input class="nom" id="nombre" type="text" placeholder="Nombre de personne">
+            </div>
+             <div class="ALL">
+
+                <input class="Now" type="submit" value="RESERVE NOW" />
+
+            </div> 
+          
+        </div>
+        <!-- <div class="wrapper">
+            <h2>RESERVATION</h2>
+            <div id="error_message">
+               
+            </div>
+            <form action="" id="myform" onsubmit = "return validate();">
+              <div class="input_field">
+                  <input type="text" placeholder="Nom" id="name">
+              </div>
+              <div class="input_field">
+                  <input type="text" placeholder="Subject" id="subject">
+              </div>
+              <div class="input_field">
+                  <input type="text" placeholder="Phone" id="phone">
+              </div>
+              <div class="input_field">
+                  <input type="text" placeholder="Email" id="email">
+              </div>
+              <div class="ALL">
+                <b>  Date de naissance</b>
+                    <input type="date" id="date2">
+                </div>
+                <div class="ALL" >
+                  <b>  Date de reservation</b>
+                    <input type="date" id="date2">
+                </div>
+              <div class="input_field">
+                  <textarea placeholder="Message" id="message"></textarea>
+              </div>
+              <div class="btn">
+                  <input type="submit">
+              </div>
+            </form>
+          </div> -->
+    </div>
+    </div>
+    <div id="propos" class="footer">
+        <div>
+        <img class="logo2" src="img/logo.PNG" alt="logo" />
+    </div>
+        <div class="icon">
+            <i class="fab fa-instagram">Stahan</i>
+            <i class="fab fa-facebook-square">location.stahan</i>
+            <i class="fab fa-twitter-square">Astahan</i>
+            <i class="fab fa-google-plus-square">asmae.shatan@gmail.com</i>
+            <i class="fas fa-phone-square-alt">0033126382910</i>
+           </div>
+           <div class="FOOTP">
+            <p> PROPOS<br> <br>Les gestionnaires de propriétés peuvent proposer un vaste choix de<br> logements en location sur
+                Facebook Marketplace. Les utilisateurs peuvent<br> parcourir ces petites annonces sur Marketplace et
+                trouver<br> ce qu’ils cherchent grâce aux filtres comme le type de logement,<br> la fourchette de prix</p></p>
+            <button  class="but">lire>></button>
+        </div>
+    </div>
+    
+    <div class="blank">
+        <p> ©Copyright 2001-2020 Copyright.be - Tous droits réservés CGV</p>
+    </div>
+   <button class="open-button" onclick="openForm()">INSCRITION</button>
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+         <!-- <h1>inscrire</h1> -->
+      <label for="name"><b>Nom</b></label>
+          <input type="text" placeholder="Votre nom" name="name" required>
+          <label for="email"><b>E-mail</b></label>
+          <input type="text" placeholder="Votre email" name="email" required>
+          <button type="submit" class="btn">Envoyer</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+        </form> 
+      </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
